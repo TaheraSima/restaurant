@@ -1,0 +1,989 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    line-height: 1.15;
+}
+
+/*div.dataTables_wrapper div.dataTables_filter label{
+    margin-bottom: 80px;
+}
+
+div.dataTables_wrapper div.dataTables_length label{
+    margin-bottom: 10px;
+}*/
+
+a:linked, a:hover, a:focus, a:clicked {
+    text-decoration: none !important;
+    cursor: pointer !important;
+}
+
+a:hover,
+a:focus {
+    outline: 0;
+    text-decoration: none !important;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+p,
+ul,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+    {
+    margin: 0;
+    padding: 0;
+}
+
+
+.bg-blue{
+	background: #1d63bb;
+}
+.bg-lime{
+	background: #4ab300;
+}
+
+
+
+
+/* 
+*=====================
+* Authentication Style
+*=====================
+*/
+
+
+
+.authentication-layout {
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+
+.authentication-layout-inner {
+    width: 100%;
+    max-width: 1370px;
+    margin: 0 auto;
+    overflow: hidden;
+    display: flex;
+
+}
+
+.authentication-layout-left {
+    width: 70%;
+    float: left;
+    background: url(../img/simec-pos-authenticate-bg.png);
+    background-size: cover;
+    padding: 0 50px;
+    position: relative;
+    z-index: 1;
+    padding: 45px;
+}
+
+.authentication-layout-logo {
+    width: 100%;
+    float: left;
+}
+
+img {
+    max-width: 100%;
+}
+
+.authentication-layout-logo img {
+    max-width: 300px;
+    margin-bottom: 65px;
+}
+
+.authentication-layout-head {
+    width: 100%;
+    float: left;
+    margin-bottom: 150px;
+    padding-left: 40px;
+}
+
+h1.authentication-layout-title {
+    width: 100%;
+    float: left;
+    color: #fff;
+    font-size: 60px;
+}
+
+h4.authentication-layout-sub-title {
+    font-size: 30px;
+    color: #fff;
+}
+
+.authentication-layout-left:before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: #000000;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    opacity: 81%;
+}
+
+a.authentication-layout-footer-link {
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.authentication-layout-footer {
+    width: 100%;
+    float: left;
+    margin-bottom: 0;
+    padding-left: 40px;
+}
+
+.authentication-layout-right {
+    width: 30%;
+    float: left;
+    padding-top: 50px;
+    padding-right: 55px;
+    background: #1d63bb;
+    position: relative;
+    z-index: 1;
+}
+
+.authentication-layout-tab-head {
+    width: 100%;
+    max-width: 380px;
+}
+
+ul.authentication-layout-tab {
+    width: 100%;
+    float: left;
+    background: #fff;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+ul.authentication-layout-tab li {
+    display: inline-block;
+    width: 50%;
+    float: left;
+}
+
+ul.authentication-layout-tab li a {
+    padding: 25px 40px;
+    display: block;
+    background: transparent;
+    font-size: 24px;
+    color: #4d4d4d;
+    text-align: center;
+}
+
+ul.authentication-layout-tab li.active a {
+    background: #4ab300;
+    color: #fff;
+}
+
+.authentication-layout-tab-area {
+    width: 100%;
+    float: left;
+}
+
+
+.simec-pos-input-group {
+    width: 100%;
+    float: left;
+    margin-bottom: 25px;
+}
+
+.simec-pos-input-box {
+    height: 65px;
+    border: 0;
+    background: #fff;
+    width: 100%;
+    border-radius: 0 10px 0 10px;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+
+.authentication-layout-right:before {
+    content: "";
+    position: absolute;
+    left: -225px;
+    top: 0;
+    height: 100%;
+    width: 500px;
+    background: #1d63bb;
+    z-index: -1;
+    transform: skewX(-24deg);
+}
+
+select.simec-pos-input-select {
+    background-image: linear-gradient(45deg, transparent 50%, black 50%), linear-gradient(135deg, black 50%, transparent 50%), linear-gradient(to right, #000, #000);
+    background-position: calc(100% - 20px) calc(1em + 2px), calc(100% - 15px) calc(1em + 2px), calc(100% - 2.5em) 0.5em;
+    background-size: 5px 5px, 5px 5px, 0 1.5em;
+    background-repeat: no-repeat;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+select.simec-pos-input-select:focus {
+    background-image: linear-gradient(45deg, transparent 50%, black 50%), linear-gradient(135deg, black 50%, transparent 50%), linear-gradient(to right, #000, #000);
+    background-position:
+        calc(100% - 15px) 1em,
+        calc(100% - 20px) 1em,
+        calc(100% - 2.5em) 0.5em;
+    background-size: 5px 5px,
+        5px 5px,
+        0 1.5em;
+    background-repeat: no-repeat;
+    border-color: green;
+    outline: 0;
+}
+
+input.simec-pos-input-box.simec-pos-input-checkbox {
+    background: transparent;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: 0;
+    float: left;
+    margin-right: 10px;
+}
+
+label.simec-pos-input-label {
+    width: 100%;
+    float: left;
+    color: #fff;
+    font-weight: normal;
+    margin: 0;
+    display: block;
+    height: 20px;
+    line-height: 20px;
+}
+
+button.simec-pos-submit-bitton {
+    float: right;
+    border: 0;
+    background: #4ab300;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 0 10px 0 10px;
+    padding: 10px 20px;
+}
+
+.authentication-layout-tab-area .fade {
+    display: none;
+}
+
+.authentication-layout-tab-area .fade.active {
+    display: block;
+}
+
+a.authentication-forgot-link {
+    float: right;
+    color: #fff;
+    font-size: 20px;
+}
+
+
+
+
+
+/* Dashboard Style */
+
+.dashboard-menu-inner {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: -100%;
+    background: #515151;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .2s;
+        cursor: e-resize;
+}
+.dashboard-menu-inner.show {
+    left: 0;
+    opacity: 1;
+    visibility: visible;
+}
+.dashboard-menu-inner ul {
+    margin: 0;
+    max-width: 300px;
+    background: #333;
+    height: 100%;
+    padding: 20px 0;
+
+}
+
+.dashboard-menu-inner ul li {
+    width: 100%;
+    float: left;
+}
+
+.dashboard-menu-inner ul li a {
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 20px;
+    display: block;
+}
+.dashboard-menu-inner ul li a svg {
+    margin-right: 10px;
+}
+.dashboard-inner-main {
+    width: 100%;
+    float: left;
+    
+    display: flex;
+}
+
+.dashboard-left {
+    width: 25%;
+    float: left;
+    background: #f2f4f5;
+}
+
+.dashboard-mid {width:75%;float: left;}
+
+.dashboard-left-head {
+    width: 100%;
+    float: left;
+    height: 65px;
+    line-height: 65px;
+    padding: 0 25px;
+}
+
+a.dashboard-menu-toggle {
+    display: block;
+    float: left;
+    font-size: 30px;
+    width: 100%;
+    text-align: left;
+    color: #4d4d4d;
+}
+
+.dashboard-inner-footer {
+    width: 100%;
+    float: left;
+    background: #1d63bb;
+    height: 65px;
+    line-height: 65px;
+    padding: 0 40px;
+    position: fixed;
+    bottom: 0;
+}
+.dashboard-inner-footer a {
+    color: #fff;
+    font-size: 20px;
+}
+
+.dashboard-inner-footer a.right-line {
+    float: right;
+    font-size: 36px;
+}
+
+.dashboard-left-body {
+    width: 100%;
+    float: left;
+}
+
+.dashboard-left-body ul li {
+    display: block;
+    width: 100%;
+    float: left;
+}
+
+.dashboard-left.order-page-inner .dashboard-left-head {
+    border-bottom: 2px solid #fff;
+}
+.dashboard-left.order-page-inner .dashboard-left-body ul li {
+    border-bottom: 2px solid #fff;
+}
+
+
+.dashboard-left-body ul li a {
+    display: block;
+    font-size: 20px;
+    padding: 10px 15px;
+    color: #4d4d4d;
+    transition: all .2s;
+}
+.dashboard-left-body ul li a.active, .dashboard-left-body ul li a:hover {
+    background: #1d63bb;
+    color: #fff;
+}
+.dashboard-left-body ul {
+    float: left;
+}
+.grid-box-items {
+    width: 100%;
+    float: left;
+}
+
+.grid-box-item {
+    width: 120px;
+    height: 120px;
+    float: left;
+    background: #f2f4f5;
+    margin: 10px;
+}
+
+.dashboard-right {
+    width: 25%;
+    float: left;
+    background: #f2f4f5;
+}
+
+.dashboard-right-head {
+    display: block;
+    float: left;
+    font-size: 20px;
+    width: 100%;
+    text-align: left;
+    height: 65px;
+    line-height: 65px;
+    border: 1px solid #d3d5d6;
+    padding: 0 25px;
+    box-shadow: 2px 0px 4px 2px #d3d5d6;
+    color: #4d4d4d;
+}
+
+.dashboard-right-head span {
+    float: right;
+    font-size: 28px;
+}
+
+.dashboard-right-body {
+    width: 100%;
+    float: left;
+}
+
+.dashboard-right-footer {
+    width: 100%;
+    float: left;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+    border-top: 2px solid #d3d5d6;
+    height: 60px;
+    line-height: 60px;
+    color: #4d4d4d;
+}
+
+
+
+/*  */
+.item-and-services-inner {
+    width: 100%;
+    float: left;
+    padding: 0 15px;
+}
+
+.item-and-services-inner-head {
+    width: 100%;
+    float: left;
+    height: 65px;
+    line-height: 65px;
+    padding: 0 25px;
+    background: #f2f4f5;
+}
+.item-and-services-inner-head.order-inner-head {
+    font-size: 20px;
+}
+ul.order-inner-items li a {
+    padding: 0 15px;
+}
+.item-and-services-inner-head span {
+    font-size: 30px;
+    float: left;
+    text-align: center;
+    width: 30px;
+    color: #4d4d4d;
+}
+
+.item-and-services-inner-head input {
+    float: left;
+    border: 0;
+    padding: 0 20px;
+    color: #000;
+    width: calc( 100% - 60px );
+    background: transparent;
+    font-size: 20px;
+}
+
+.item-and-services-inner-body {
+    width: 100%;
+    float: left;
+}
+
+.item-and-services-inner-body ul {
+    float: left;
+    width: 100%;
+} 
+
+.item-and-services-inner-body ul li {
+    width: 100%;
+    float: left;
+    margin-top: 5px;
+}
+
+.item-and-services-inner-body ul li a {
+    height: 80px;
+    line-height: 80px;
+    background: #f2f4f5;
+    display: block;
+    font-size: 20px;
+    color: #4d4d4d;
+}
+
+.item-and-services-inner-body ul li a span {
+    height: 80px;
+    width: 80px;
+    font-size: 36px;
+    float: left;
+    text-align: center;
+    color: #fff;
+    margin-right: 15px;
+}
+
+div#createNewItem {
+    margin: 0;
+    padding: 0;
+}
+div#createNewItem .modal-dialog {
+    min-height: 100vh;
+    align-items: center;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    margin: 0 auto;
+}
+
+div#createNewItem a.btn.create-new-item-btn {
+    width: 100%;
+    padding: 2px 13px;
+    font-size: 24px;
+    color: #4d4d4d;
+    border-radius: 5px;
+    transition: all .2s;
+}
+
+div#createNewItem a.btn.create-new-item-btn.active, 
+div#createNewItem a.btn.create-new-item-btn:hover {
+    background: #4ab300;
+    color: #fff;
+}
+
+
+div#createNewItemForm {
+    padding: 0 !important;
+    margin: 0;
+        overflow: auto;
+}
+.create-new-item-form-sec .modal-dialog {
+    max-width: 900px;
+    width: 100%;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    margin: 0 auto;
+}
+
+
+.create-new-item-form-sec .modal-content {
+    padding: 0;
+    margin: 0 auto;
+    border: 0;
+    box-shadow: none;
+    border-radius: 0;
+}
+.create-new-item-form-sec .modal-body {
+    float: left;
+    padding: 0;
+    width: 100%;
+}
+.create-new-item-form-sec .form-header {
+    width: 100%;
+    float: left;
+    height: 65px;
+    line-height: 65px;
+    background: #1d63bb;
+    padding: 0 15px;
+}
+.create-new-item-form-sec .form-inner {
+    width: 100%;
+    float: left;
+}
+
+
+.create-new-item-form-sec .form-header a {
+    font-size: 20px;
+    color: #fff;
+}
+ 
+
+.create-new-item-form-sec .form-header a.right-line {
+    float: right;
+}
+.create-new-item-form-sec .form-body {
+    float: left;
+    width: 100%;
+    padding: 0 20%;
+}
+
+.create-new-item-form-sec input.simec-pos-input-box {
+    background: #e6fffe;
+    border-radius: 5px;  
+    float: left;
+}
+.create-new-item-form-sec .simec-pos-input-group{
+	padding: 0 15px;
+}
+.simec-pos-input-group-col-2 {
+    width: 50%;
+    float: left;
+    padding: 0 15px;
+    margin-bottom: 25px;
+}
+.create-new-item-form-sec button.simec-pos-submit-bitton {
+    margin: 0 auto;
+    float: left;
+    width: 100%;
+    border-radius: 5px;
+    text-align: center;
+    height: 65px;
+    line-height: 65px;
+    padding: 0;
+}
+.create-new-item-form-sec .simec-pos-uplode-file-input-group {
+    width: 100%;
+    float: left;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    text-align: center;
+}
+
+.create-new-item-form-sec label.simec-pos-uplode-file-input-label {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    cursor: pointer;
+    background: url(../icon/spos-new-items.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.create-new-item-form-sec input.simec-pos-uplode-file-input {
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+.create-new-item-form-sec label.simec-pos-uplode-file-input-label span {
+    position: absolute;
+    left: 0;
+    bottom: -20px;
+    text-align: center;
+    color: #b3b3b3;
+    font-weight: normal;
+    text-align: center;
+    width: 100%;
+    font-size: 14px;
+}
+
+
+
+
+.no-has-items {
+    max-width: 400px;
+    margin: 100px auto;
+    text-align: center;
+}
+ 
+
+.no-has-items p {
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 20px;
+    color: #4d4d4d;
+}
+
+.no-has-items span {
+    font-size: 16px;
+    color: #4d4d4d;
+}
+
+.no-has-items .icon-box img {
+    max-width: 130px;
+    opacity: .7;
+}
+.dashboard-mid.dashboard-transactions-mid {
+    width: 75%;
+}
+
+.dashboard-mid.dashboard-transactions-mid .item-and-services-inner {
+    padding-right: 0;
+}
+
+.dashboard-left-body.dashboard-transactions-left .receipt-number-body {
+    padding: 20px 15px;
+    width: 100%;
+    float: left;
+    border-top: 2px solid #fff;
+}
+ 
+.dashboard-left-body.dashboard-transactions-left .receipt-number-body p {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.no-has-payments {
+    margin: 100px;
+    text-align: center;
+}
+
+.no-has-payments p {font-size: 20px;}
+
+.no-has-payments span {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.no-has-payments a {
+    background: #4ab300;
+    padding: 15px 70px;
+    display: inline-block;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.dashboard-mid.dashboard-items-right {
+    width: 75%;
+}
+
+
+.items-and-services-add-inner-head {
+    width: 100%;
+    float: left;
+    height: 65px;
+    line-height: 65px;
+    padding: 0 25px;
+    background: #f2f4f5;
+    border-bottom: 2px solid #fff;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+@media(max-width: 1370px) {
+    .authentication-layout-inner {
+        min-height: 100vh;
+    }
+}
+
+@media(max-width: 1350px) {
+    ul.authentication-layout-tab li a {
+		padding: 25px 25px;  
+		font-size: 20px;  
+	}
+}
+
+
+@media(max-width: 1170px) {
+	.authentication-layout-right:before{
+		display: none;
+	}
+
+.authentication-layout-right {
+    width: 50%;
+    padding: 50px;
+    
+}
+
+.authentication-layout-left {
+    width: 50%;  
+    padding: 50px;
+}
+
+.authentication-layout-logo img {
+    max-width: 165px;
+    margin-bottom: 25px;
+}
+.authentication-layout-head {
+    width: 100%;
+    float: left;
+    margin-bottom: 40px;
+    padding-left: 0;
+}
+h1.authentication-layout-title {
+    width: 100%;
+    float: left;
+    color: #fff;
+    font-size: 36px;
+}
+h4.authentication-layout-sub-title {
+    font-size: 20px;
+    color: #fff;
+}
+.authentication-layout-footer {
+    width: 100%;
+    float: left;
+    margin-bottom: 0;
+    padding-left: 0;
+} 
+a.authentication-layout-footer-link {
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+     
+}
+
+
+
+@media(max-width: 991px) {
+
+.dashboard-left-body ul li a { 
+    font-size: 14px;
+    padding: 7px 15px; 
+}
+.dashboard-left-head { 
+    height: 45px;
+    line-height: 45px;
+    padding: 0 15px;
+}
+a.dashboard-menu-toggle { 
+    font-size: 20px; 
+}
+.dashboard-inner-footer { 
+    height: 45px;
+    line-height: 45px;
+    padding: 0 15px; 
+}
+.dashboard-inner-footer a { 
+    font-size: 14px;
+}
+.dashboard-inner-footer a.right-line { 
+    font-size: 20px;
+}
+.dashboard-right-footer { 
+    font-size: 14px; 
+    height: 40px;
+    line-height: 40px; 
+}
+
+.dashboard-right-head { 
+    font-size: 14px; 
+    height: 45px;
+    line-height: 45px; 
+    padding: 0 15px; 
+}
+
+
+
+
+
+
+}
+
+
+@media( max-width: 767px ){
+
+.authentication-layout-inner { 
+    display: block;
+}
+.authentication-layout-left {
+    width: 100%;
+    padding: 25px 15px;
+    float: left;
+}
+.authentication-layout-right {
+    width: 100%;
+    padding: 25px;
+}
+.create-new-item-form-sec .form-body { 
+    padding: 0;
+}
+
+.item-and-services-inner-body ul li a span {
+    height: 50px;
+    width: 50px; 
+}
+.item-and-services-inner-body ul li a {
+    height: 50px;
+    line-height: 50px; 
+}
+a.dashboard-menu-toggle {
+    font-size: 14px;
+}
+
+.dashboard-left-body ul li a {
+    font-size: 14px;
+    padding: 7px 5px;
+}
+.item-and-services-inner-head input { 
+    font-size: 14px;
+}
+.item-and-services-inner-head { 
+    padding: 0 10px; 
+}
+.item-and-services-inner-head input {
+    float: left;
+    border: 0;
+    padding: 0 20px;
+    color: #000;
+    width: calc( 100% - 30px );
+    background: transparent;
+    font-size: 14px;
+    padding-right: 0;
+}
+.item-and-services-inner-body ul li a { 
+    font-size: 14px; 
+}
+.simec-pos-input-box {
+    height: 40px; 
+    font-size: 14px;
+}
+.create-new-item-form-sec button.simec-pos-submit-bitton { 
+    height: 50px;
+    line-height: 50px; 
+}
+
+
+
+
+
+}

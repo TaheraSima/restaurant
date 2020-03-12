@@ -1,0 +1,24 @@
+<?php
+//sales_report Models
+class sales_report_Model extends Model
+{
+	function __construct()
+	{
+		parent::__construct();
+	}
+	
+	public function save($table)
+	{
+		//Fields_name_of_Carrying_fields
+
+		//For_Image_Files
+		
+		$stmt = $this->db->prepare("INSERT INTO `$table`() VALUES ()");
+		if ( $stmt->execute() === TRUE ) {
+			return 'SUCCESS';
+		}else{
+			return 'FAILED';
+		}
+	}
+	
+}

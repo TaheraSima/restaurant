@@ -1,0 +1,635 @@
+div#createNewItem a.btn.create-new-item-btn.dismiss:hover {
+    background: red;
+    color: #fff;
+}
+.custom-text{
+    font-size: 15px;
+}
+.custom-label{
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif !important;
+    text-decoration: none !important;
+    color:#4D4D4D !important;
+    font-size: 18px !important;
+    font-weight: 500 !important;
+}
+.cash-text{
+    font-size: 15px;
+}
+.placeholder{
+    font-size: 15px;
+}
+
+.service{
+    margin-top:5px;
+     background-color: #F2F4F5 ;
+}
+.service ul{
+    margin: 0px;
+    padding: 0px;
+}
+.service ul li{
+    list-style-type: none;
+    display: inline;
+    padding-right: 10px;
+}
+.service ul li a{
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    text-decoration: none;
+    color:#4D4D4D;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+button.simec-pos-submit-bitton {
+        float: right;
+        border: 0;
+        background: #4ab300;
+        color: #fff;
+        font-size: 20px;
+        border-radius: 0 10px 0 10px;
+        padding: 10px 20px;
+}
+
+.create-new-item-form-sec .simec-pos-input-group{
+    padding: 0 15px;
+}
+.simec-pos-input-group-col-2 {
+    width: 50%;
+    float: left;
+    padding: 0 15px;
+    margin-bottom: 25px;
+}
+
+.simec-pos-input-group {
+    width: 100%;
+    float: left;
+    margin-bottom: 25px;
+}
+.simec-pos-input-box {
+    height: 65px;
+    border: 0;
+    background: #fff;
+    width: 100%;
+    border-radius: 0 10px 0 10px;
+    padding: 10px 20px;
+    font-size: 15px;
+}
+.simec-pos-input-box {
+    height: 60px; 
+    font-size: 14px;
+}
+input.simec-pos-input-box.simec-pos-input-checkbox {
+    background: transparent;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: 0;
+    float: left;
+    margin-right: 10px;
+}
+
+.create-new-item-form-sec input.simec-pos-input-box {
+    background: #e6fffe;
+    border-radius: 5px;  
+    float: left;
+}
+
+
+.create-new-item-form-sec .modal-dialog {
+    max-width: 900px;
+    width: 100%;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    margin: 0 auto;
+}
+
+
+.create-new-item-form-sec .modal-content {
+    padding: 0;
+    margin: 0 auto;
+    border: 0;
+    box-shadow: none;
+    border-radius: 0;
+}
+.create-new-item-form-sec .modal-body {
+    float: left;
+    padding: 0;
+    width: 100%;
+}
+.create-new-item-form-sec .form-header {
+    width: 100%;
+    float: left;
+    height: 65px;
+    line-height: 65px;
+    background: #1d63bb;
+    padding: 0 15px;
+}
+.create-new-item-form-sec .form-inner {
+    width: 100%;
+    float: left;
+}
+
+
+.create-new-item-form-sec .form-header a {
+    font-size: 20px;
+    color: #fff;
+}
+ 
+
+.create-new-item-form-sec .form-header a.right-line {
+    float: right;
+}
+.create-new-item-form-sec .form-body {
+    float: left;
+    width: 100%;
+    padding: 0 20%;
+}
+
+
+.create-new-item-form-sec input.simec-pos-input-box {
+    background: #e6fffe;
+    border-radius: 5px;  
+    float: left;
+}
+.create-new-item-form-sec .simec-pos-input-group{
+    padding: 0 15px;
+}
+.simec-pos-input-group-col-2 {
+    width: 50%;
+    float: left;
+    padding: 0 15px;
+    margin-bottom: 25px;
+}
+.create-new-item-form-sec button.simec-pos-submit-bitton {
+    margin: 0 auto;
+    float: left;
+    width: 100%;
+    border-radius: 5px;
+    text-align: center;
+    height: 65px;
+    line-height: 65px;
+    padding: 0;
+}
+.create-new-item-form-sec .simec-pos-uplode-file-input-group {
+    width: 100%;
+    float: left;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    text-align: center;
+}
+
+.create-new-item-form-sec label.simec-pos-uplode-file-input-label {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    cursor: pointer;
+    background: url(../icon/spos-new-items.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.create-new-item-form-sec input.simec-pos-uplode-file-input {
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+.create-new-item-form-sec label.simec-pos-uplode-file-input-label span {
+    position: absolute;
+    left: 0;
+    bottom: -20px;
+    text-align: center;
+    color: #b3b3b3;
+    font-weight: normal;
+    text-align: center;
+    width: 100%;
+    font-size: 14px;
+}
+.create-new-item-form-sec .form-body { 
+    padding: 0;
+}
+.create-new-item-form-sec button.simec-pos-submit-bitton { 
+    height: 50px;
+    line-height: 50px; 
+}
+
+.simec-pos-input-text{
+    font-size: 18px;
+}
+
+div#production {
+    padding: 2 !important;
+    margin: 0;
+    overflow: auto;
+}
+div#category {
+    padding: 2 !important;
+    margin: 0;
+    overflow: auto;
+}
+
+.create-new-item-form-sec .simec-pos-uplode-file-input-group {
+    width: 100%;
+    float: left;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    text-align: center;
+}
+
+.create-new-item-form-sec label.simec-pos-uplode-file-input-label {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    cursor: pointer;
+    background: url(../../icon/spos-new-items.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.create-new-item-form-sec input.simec-pos-uplode-file-input {
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+.create-new-item-form-sec label.simec-pos-uplode-file-input-label span {
+    position: absolute;
+    left: 0;
+    bottom: -20px;
+    text-align: center;
+    color: #b3b3b3;
+    font-weight: normal;
+    text-align: center;
+    width: 100%;
+    font-size: 14px;
+}
+
+.create-new-item-form-sec .simec-pos-upload-file-input-group {
+    width: 100%;
+    float: left;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    text-align: center;
+}
+
+.create-new-item-form-sec label.simec-pos-upload-file-input-label {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    cursor: pointer;
+    /*background: url(../../icon/spos-new-items.png);*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.create-new-item-form-sec input.simec-pos-upload-file-input {
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+.create-new-item-form-sec label.simec-pos-upload-file-input-label span {
+    position: absolute;
+    left: 0;
+    bottom: -20px;
+    text-align: center;
+    color: #b3b3b3;
+    font-weight: normal;
+    text-align: center;
+    width: 100%;
+    font-size: 14px;
+}
+
+
+.dashboard-left-body {
+    width: 100%;
+    float: left;
+}
+
+.dashboard-left-body ul li {
+    display: block;
+    width: 100%;
+    float: left;
+}
+
+.dashboard-left.order-page-inner .dashboard-left-body ul li {
+    border-bottom: 2px solid #fff;
+}
+
+.dashboard-left-body ul li a {
+    display: block;
+    font-size: 20px;
+    padding: 10px 15px;
+    color: #4d4d4d;
+    transition: all .2s;
+}
+.dashboard-left-body ul li a.active, .dashboard-left-body ul li a:hover {
+    background: #1d63bb;
+    color: #fff;
+}
+.dashboard-left-body ul {
+    float: left;
+}
+
+.dashboard-left-body.dashboard-transactions-left .receipt-number-body {
+    padding: 20px 15px;
+    width: 100%;
+    float: left;
+    border-top: 2px solid #fff;
+}
+ 
+.dashboard-left-body.dashboard-transactions-left .receipt-number-body p {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.item-and-services-inner {
+    width: 100%;
+    float: left;
+    padding: 0 15px;
+}
+
+.item-and-services-inner-head {
+    width: 100%;
+    float: left;
+    height: 65px;
+    line-height: 65px;
+    padding: 0 25px;
+    background: #f2f4f5;
+}
+.item-and-services-inner-head.order-inner-head {
+    font-size: 20px;
+}
+ul.order-inner-items li a {
+    padding: 0 15px;
+}
+.item-and-services-inner-head span {
+    font-size: 30px;
+    float: left;
+    text-align: center;
+    width: 30px;
+    color: #4d4d4d;
+}
+
+.item-and-services-inner-head input {
+    float: left;
+    border: 0;
+    padding: 0 20px;
+    color: #000;
+    width: calc( 100% - 60px );
+    background: transparent;
+    font-size: 20px;
+}
+
+.item-and-services-inner-body {
+    width: 100%;
+    float: left;
+}
+
+.item-and-services-inner-body ul {
+    float: left;
+    width: 100%;
+} 
+
+.item-and-services-inner-body ul li {
+    width: 100%;
+    float: left;
+    margin-top: 5px;
+}
+
+.item-and-services-inner-body ul li a {
+    height: 80px;
+    line-height: 80px;
+    background: #f2f4f5;
+    display: block;
+    font-size: 20px;
+    color: #4d4d4d;
+}
+
+.item-and-services-inner-body ul li a span {
+    height: 80px;
+    width: 80px;
+    font-size: 36px;
+    float: left;
+    text-align: center;
+    color: #fff;
+    margin-right: 15px;
+}
+
+/*.dashboard-mid.dashboard-transactions-mid .item-and-services-inner {
+    padding-right: 0;
+}
+
+.dashboard-mid {width:75%;float: left;}
+
+.dashboard-mid.dashboard-transactions-mid {
+    width: 75%;
+}
+
+.dashboard-mid.dashboard-transactions-mid {
+    width: 75%;
+}*/
+
+
+.item-and-services-inner-body {
+    width: 100%;
+    float: left;
+}
+
+.item-and-services-inner-body ul {
+    float: left;
+    width: 100%;
+} 
+
+.item-and-services-inner-body ul li {
+    width: 100%;
+    float: left;
+    margin-top: 5px;
+}
+
+.item-and-services-inner-body ul li a {
+    height: 80px;
+    line-height: 80px;
+    background: #f2f4f5;
+    display: block;
+    font-size: 20px;
+    color: #4d4d4d;
+}
+
+.item-and-services-inner-body ul li a span {
+    height: 80px;
+    width: 80px;
+    font-size: 36px;
+    float: left;
+    text-align: center;
+    color: #fff;
+    margin-right: 15px;
+}
+
+.custm{
+    padding: 0px !important;
+}
+
+@media(max-width: 991px) {
+
+.dashboard-left-body ul li a { 
+    font-size: 14px;
+    /*padding: 7px 15px; */
+}
+
+    .dataTables_wrapper .dataTables_filter { 
+    text-align: right;
+}
+div.dataTables_wrapper div.dataTables_filter input { 
+    width: 100%;
+    max-width: 100%;
+    float: left;
+    margin: 0;
+}
+.dashboard-left-body ul li a {
+    font-size: 14px;
+    /*padding: 7px 5px;*/
+}
+
+.item-and-services-inner-body ul li a span {
+    height: 50px;
+    width: 50px; 
+}
+.item-and-services-inner-body ul li a {
+    height: 50px;
+    line-height: 50px; 
+}
+
+.item-and-services-inner-body ul li a span {
+    height: 50px;
+    width: 50px; 
+}
+.item-and-services-inner-body ul li a {
+    height: 50px;
+    line-height: 50px; 
+}
+
+.item-and-services-inner-body ul li a { 
+    font-size: 14px; 
+}
+
+
+.item-and-services-inner-head input { 
+    font-size: 14px;
+}
+.item-and-services-inner-head { 
+    padding: 0 10px; 
+}
+.item-and-services-inner-head input {
+    float: left;
+    border: 0;
+    padding: 0 20px;
+    color: #000;
+    width: calc( 100% - 30px );
+    background: transparent;
+    font-size: 14px;
+    padding-right: 0;
+}
+.item-and-services-inner-body ul li a { 
+    font-size: 14px; 
+}
+
+}
+
+.table-hover.table-responsive{
+        display: inline-table !important;
+}
+@media( max-width: 767px ){
+
+.payment_type{
+    width: 50%;
+}
+
+
+.dashboard-mid.dashboard-transactions-mid .item-and-services-inner {
+padding-right: 0;
+}
+
+.dashboard-mid {width:75%;float: left;}
+
+.dashboard-mid.dashboard-transactions-mid {
+    width: 75%;
+}
+
+.dashboard-mid.dashboard-transactions-mid {
+    width: 75%;
+}
+
+.dataTables_wrapper .dataTables_filter { 
+    text-align: right;
+}
+div.dataTables_wrapper div.dataTables_filter input { 
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    float: left;
+    margin: 0;
+}
+.dashboard-left-body ul li a {
+    font-size: 14px;
+    /*padding: 7px 5px;*/
+}
+
+.item-and-services-inner-body ul li a span {
+    height: 50px;
+    width: 50px; 
+}
+.item-and-services-inner-body ul li a {
+    height: 50px;
+    line-height: 50px; 
+}
+
+.item-and-services-inner-body ul li a span {
+    height: 50px;
+    width: 50px; 
+}
+.item-and-services-inner-body ul li a {
+    height: 50px;
+    line-height: 50px; 
+}
+
+.item-and-services-inner-body ul li a { 
+    font-size: 14px; 
+}
+
+
+.item-and-services-inner-head input { 
+    font-size: 14px;
+}
+.item-and-services-inner-head { 
+    padding: 0 10px; 
+}
+.item-and-services-inner-head input {
+    float: left;
+    border: 0;
+    padding: 0 20px;
+    color: #000;
+    width: calc( 100% - 30px );
+    background: transparent;
+    font-size: 14px;
+    padding-right: 0;
+}
+.item-and-services-inner-body ul li a { 
+    font-size: 14px; 
+}
+.table-hover.table-responsive{
+        display: block !important;
+}
+
+}
